@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popupmenu_srtirg_array">
+        <item>书签/历史</item>
+        <item>加书签</item>
+        <item>刷新</item>
+        <item>夜间</item>
+        <item>分享</item>
+        <item>下载</item>
+        <item>全屏</item>
+        <item>退出</item>
+        <item>更多设置</item>
+        <item>皮肤</item>
+        <item>无图</item>
+        <item>省流量</item>
+        <item>账号</item>
+        <item>无痕</item>
+        <item>翻页模式</item>
+        <item>更新管理</item>
+        <item>意见反馈</item>
+        <item>网络诊断</item>
+        <item>举报网站</item>
+        <item>页内搜索</item>
+        <item>截图涂鸦</item>
+    </string-array>
+    <integer-array name="popupmenu_icon_array">
+        <item>@drawable/menu_icon_bookmark</item>
+        <item>@drawable/menu_icon_add_bookmark</item>
+        <item>@drawable/menu_icon_refresh</item>
+        <item>@drawable/menu_icon_nightmode_normal</item>
+        <item>@drawable/menu_icon_share</item>
+        <item>@drawable/menu_icon_download</item>
+        <item>@drawable/menu_icon_fullscreen_normal</item>
+        <item>@drawable/menu_icon_exit</item>
+        <item>@drawable/menu_icon_settings</item>
+        <item>@drawable/menu_icon_theme</item>
+        <item>@drawable/menu_icon_picture_mode_normal</item>
+        <item>@drawable/menu_icon_trafic_normal</item>
+        <item>@drawable/menu_icon_account</item>
+        <item>@drawable/menu_icon_privacy_normal</item>
+        <item>@drawable/menu_icon_page_scroll</item>
+        <item>@drawable/menu_icon_check_update</item>
+        <item>@drawable/menu_icon_feedback</item>
+        <item>@drawable/menu_icon_network_diagnose</item>
+        <item>@drawable/menu_icon_report</item>
+        <item>@drawable/menu_icon_page_search</item>
+        <item>@drawable/menu_icon_screencut</item>
+	</integer-array>
+</resources>

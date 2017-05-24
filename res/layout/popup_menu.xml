@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5.0dip"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"       
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/normal_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/normal"
+            android:textColor="#ffffff"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/setting_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/setting"
+            android:textColor="#ffffff"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/tool_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/tool"
+            android:textColor="#ffffff"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/cursor_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+        
+        <ImageView
+            android:id="@+id/cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="3.0dip"
+            android:src="@android:color/white" />          
+    </LinearLayout>
+	
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/menu_viewpager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+</LinearLayout>

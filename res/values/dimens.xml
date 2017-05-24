@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popupmenu_height">190.0dip</dimen>
+    <dimen name="popupmenu_icon_padding">8.0dip</dimen>
+    <dimen name="activity_vertical_margin">8.0dip</dimen>
+</resources>

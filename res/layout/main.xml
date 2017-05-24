@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45.0dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/theme_adrbar_bkg_normal">
+        
+        <AutoCompleteTextView 
+            android:id="@+id/input_url"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:padding="5.0dip"
+            android:hint="@string/search_tag"
+            android:singleLine="true"
+            android:background="@drawable/theme_adrbar_inputbox_bkg_normal"
+            android:drawableLeft="@drawable/theme_icon_search_normal"
+            android:drawablePadding="5.0dip"
+            android:layout_weight="1.0" />   
+        <ImageView
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0dip"
+            android:src="@drawable/ic_btn_go" />
+        <ImageView
+            android:id="@+id/stop_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginRight="15.0dip"
+            android:src="@drawable/theme_adrbar_btn_stop_normal" />
+    </LinearLayout>
+    
+    <ProgressBar android:id="@+id/WebViewProgress"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:max="100"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:progressDrawable="@drawable/storage_beam_progress_bg"
+		android:maxHeight="5px" 
+		android:minHeight="5px" />
+
+        
+	<com.uibaike.browser.launcher.Launcher
+	    android:id="@+id/launcher"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1.0" />
+
+	
+	
+	<LinearLayout
+	    android:id="@+id/toolbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="40.0dip"
+	    android:background="@drawable/bottom_bar_bg"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal">
+	    
+	    <ImageButton
+	        android:id="@+id/pre_page"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:background="@drawable/bottom_bg_selector"
+	        android:src="@drawable/toolbar_1_01" />
+	    <ImageButton
+	        android:id="@+id/next_page"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:background="@drawable/bottom_bg_selector"
+	        android:src="@drawable/toolbar_1_02" />
+<!-- 	     <ImageButton
+	        android:id="@+id/popup_menu_btn"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:background="@drawable/bottom_bg_selector"
+	        android:src="@drawable/toolbar_1_03" />  -->
+	    <ImageButton
+	        android:id="@+id/home_btn"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:background="@drawable/bottom_bg_selector"
+	        android:src="@drawable/toolbar_1_05" />
+	    <FrameLayout 
+	        android:id="@+id/tab_num_btn"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:background="@drawable/bottom_bg_selector">
+	        
+	        <ImageView
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_gravity="center"
+	        	android:src="@drawable/toolbar_1_04" />
+	        <TextView
+	            android:id="@+id/tab_num_main"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:paddingLeft="5.0dip"
+	            android:paddingTop="8.0dip"
+	            android:text="1" />
+	    </FrameLayout>
+	    
+	</LinearLayout>
+</LinearLayout>
