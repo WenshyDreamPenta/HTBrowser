@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.channelsoft.android.qnn8library.util.QNManageLog;
+import com.uibaike.browser.utils.QNManageLog;
 import com.uibaike.browser.BrowserApplication;
 import com.uibaike.browser.R;
 import com.uibaike.browser.launcher.CustomWebView;

@@ -1,6 +1,6 @@
 package com.uibaike.browser.adapter;
 
-import com.channelsoft.android.qnn8library.util.QNManageLog;
+import com.uibaike.browser.utils.QNManageLog;
 import com.uibaike.browser.BrowserApplication;
 import com.uibaike.browser.BrowserView;
 import com.uibaike.browser.R;

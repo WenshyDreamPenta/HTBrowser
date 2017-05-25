@@ -2,7 +2,7 @@ package com.uibaike.browser;
 
 import javax.xml.namespace.QName;
 
-import com.channelsoft.android.qnn8library.util.QNBaseApplication;
+import com.uibaike.browser.utils.QNBaseApplication;
 
 import android.app.Application;
 import android.widget.ViewFlipper;
